@@ -18,7 +18,6 @@ def PlayGame():
         attempts += 1
         cows = 0
         bulls = 0
-
         choice = input("Please enter a 4 digit number: ")
         guess = []
         for i in range(4):
