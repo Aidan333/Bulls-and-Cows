@@ -6,15 +6,6 @@ Version 1.0 (2022)
 ***********************
 Instructions:
 
-<<<<<<< HEAD
-print("""
-Bulls and Cows
-Version 1.0 (2022)
-***********************
-Instructions:
-
-=======
->>>>>>> 331125cee6114ff46a9166a56245ad13b68f9e42
 The computer has selected a 4-digit number.
 Enter a 4-digit number who's digits do not repeat.
 A Cow indicates that a digit of your selected number exists in the pre-selected number.
