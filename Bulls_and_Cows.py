@@ -55,6 +55,7 @@ def main():
                 print("\nYou won after 1 attempt!!")
                 again = input("Play again (y/n)").lower()
                 if again == "y":
+                    attempts *= 0
                     main()
                 if again == "":
                     quit()
@@ -64,6 +65,7 @@ def main():
                 print("You won after " + str(attempts) + " attempts!!")
                 again = input("Play again (y/n)").lower()
                 if again == "y":
+                    attempts *= 0
                     main()
                 else:
                     quit()
